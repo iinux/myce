@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "MyChromeExtension",
+  "short_name": "MyCE",
+  "description": "Do your customize.",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation",
+    "*://*.github.com/*"
+  ],
+  "icons": {
+    "16": "assets/img/icon16.png",
+    "48": "assets/img/icon48.png",
+    "128": "assets/img/icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  },
+  "homepage_url": "http://zhangqun.site/",
+  "options_ui": {
+    "page": "options.html"
+  },
+  "browser_action": {
+    "default_title": "MyCE",
+    "default_icon": "assets/img/icon128.png"
+  }
+}
