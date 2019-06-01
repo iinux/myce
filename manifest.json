@@ -8,7 +8,8 @@
     "tabs",
     "storage",
     "webNavigation",
-    "*://*.github.com/*"
+    "*://*.github.com/*",
+    "*://blog.csdn.net/"
   ],
   "icons": {
     "16": "assets/img/icon16.png",
@@ -18,12 +19,24 @@
   "chrome_url_overrides": {
     "newtab": "newTab.html"
   },
-  "homepage_url": "http://zhangqun.site/",
+  "homepage_url": "http://iinux.cn/",
   "options_ui": {
     "page": "options.html"
   },
   "browser_action": {
     "default_title": "MyCE",
     "default_icon": "assets/img/icon128.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "js/click_read_more_in_csdn.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
 }
