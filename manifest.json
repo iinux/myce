@@ -30,8 +30,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "http://blog.csdn.net/*",
+        "https://blog.csdn.net/*"
       ],
       "js": [
         "js/click_read_more_in_csdn.js"
