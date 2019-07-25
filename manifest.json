@@ -31,7 +31,9 @@
     {
       "matches": [
         "http://blog.csdn.net/*",
-        "https://blog.csdn.net/*"
+        "https://blog.csdn.net/*",
+        "http://www.zhihu.com/*",
+        "https://www.zhihu.com/*"
       ],
       "js": [
         "js/click_read_more_in_csdn.js"
