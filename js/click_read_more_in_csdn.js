@@ -13,3 +13,8 @@ dom = document.getElementsByClassName("QuestionRichText--collapsed")[0];
 if (dom) {
     dom.click()
 }
+
+dom = document.getElementsByClassName("readmore_btn")[0];
+if (dom) {
+    dom.click()
+}

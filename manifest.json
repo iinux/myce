@@ -32,6 +32,8 @@
       "matches": [
         "http://blog.csdn.net/*",
         "https://blog.csdn.net/*",
+        "http://www.csdn.net/*",
+        "https://www.csdn.net/*",
         "http://www.zhihu.com/*",
         "https://www.zhihu.com/*"
       ],
